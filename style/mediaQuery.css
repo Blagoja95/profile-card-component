@@ -1,0 +1,52 @@
+@media screen and (max-width: 400px) {
+    html{
+        font-size: 56.25%;
+    }
+
+    .profile-card-component{
+        width: 30rem;
+        max-height: 38rem;
+       
+    }
+
+    .profile-img{
+        height: 9rem;
+        position: absolute;
+        transform: translate(100%, 85%);
+    }
+
+    .social-stats-part{
+        gap: 4rem;
+    }
+
+    .name-age-part h1{
+        font-size: 2rem;
+    }
+
+    @media screen and (max-width: 300px){
+        html{
+            font-size: 50%;
+        }
+
+        .profile-card-component{
+            width: 26rem;
+            max-height: 38rem;
+           
+        }
+
+        .profile-img{
+            border: 4px solid var(--white);
+            height: 8rem;
+            position: absolute;
+            transform: translate(95%, 100%);
+        }
+
+        .social-stats-part{
+            gap: 3rem;
+        }
+
+        .social-stats-part{
+            gap: 3.5rem;
+        }
+    }
+}

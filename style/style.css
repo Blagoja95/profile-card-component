@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.2rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15rem;
+    background-color: var(--Dark-cyan);
+    position: relative;
+}
+
+:root{
+
+    /* ### Primary */
+--Dark-cyan: hsl(185, 75%, 39%);
+--Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+--Dark-grayish-blue: hsl(227, 10%, 46%);
+
+/* ### Neutral */             
+--Dark-gray: hsl(0, 0%, 59%);
+--white: #fff
+}
+
+.profile-card-section{
+    display: flex;
+    justify-content: center;
+}
+
+.profile-card-component{
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    max-height: 38rem;
+    background-color: white;
+    border-radius: 15px;
+}
+.design-patern-part{
+    height: 14rem;
+    background-image: url('../images/bg-pattern-card.svg');
+    position: relative;
+    border-radius: 15px 15px 0 0;
+}
+
+.profile-img{
+    border-radius: 100%;
+    border: 5px solid var(--white);
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(115%, 85%);
+}
+
+.social-info-part{
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.info-center{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.name-age-part{
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    /* font-size: 1.6rem; */
+}
+
+.name-age-part h1{
+    font-size: 2.2rem;
+}
+
+.info-center p {
+    font-size: 1.6rem;
+    color: var(--Dark-gray);
+}
+
+.info-center .city {
+    margin-top: .8rem;
+}
+
+.social-stats-part{
+    height: 9rem;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid var(--Dark-gray);
+}
+
+.followers-box,
+.likes-box,
+.photo-box{
+    text-align: center;
+}
+
+.social-stats-part h2{
+    font-size: 1.8rem;
+}
+
+.social-stats-part p{
+    margin-top: .4rem;
+   color: var(--Dark-gray);
+}
+
+.attribution {
+    color: var(--white);
+    font-size: 11px;
+    text-align: center;
+}
+
+
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.background-img-top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
+
+.background-img-bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    transform: translbate(50%, 50%);
+}
