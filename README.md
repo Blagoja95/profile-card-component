@@ -1,5 +1,8 @@
 # Frontend Mentor - Profile card component
 
+## Live site url
+https://blagoja95.github.io/profile-card-component/
+
 ![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
